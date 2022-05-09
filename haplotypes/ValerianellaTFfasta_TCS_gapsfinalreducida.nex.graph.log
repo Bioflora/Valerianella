@@ -1,0 +1,159 @@
+TCS v1.21
+Thu Mar 18 16:56:46 COT 2021
+Datafile = C:\TCS1.21\ValerianellaTFfasta_TCS_gapsfinalreducida.nex
+Current OS = windows
+Data in NEXUS format
+Number of sequences: 49
+Length of sequences: 1154
+
+RUN SETTINGS
+User specified maximum connection steps = 72
+Gaps treated as fifth state
+
+
+HAPLOTYPES
+Number of haplotypes = 18
+
+Haplotype list:
+
+
+ - Valerianella_carinataVCA0104 :  Valerianella_lusitanicaVLU01
+ - Valerianella_carinataVCA0105 : 
+ - Valerianella_carinataVCA02 :  Valerianella_carinataVCA0501 Valerianella_carinataVCA0509 Valerianella_carinataVCA09_A Valerianella_carinataVCA1006_D Valerianella_carinataVCA1007_D Valerianella_carinataVCA11_C Valerianella_carinataVCA12_B Valerianella_locustaVLO01 Valerianella_locustaVLO0305_A Valerianella_locustaVLO0306_A Valerianella_locustaVLO0409_B Valerianella_locustaVLO0415_B Valerianella_locustaVLO0505_C Valerianella_locustaVLO0608_D Valerianella_locustaVLO0609_D
+ - Valerianella_carinataVCA0302 : 
+ - Valerianella_carinataVCA0308 : 
+ - Valerianella_carinataVCA0805 : 
+ - Valerianella_carinataVCA0810 : 
+ - Valerianella_coronataVCO01 :  Valerianella_coronataVCO0218 Valerianella_coronataVCO0219 Valerianella_coronataVCO04 Valerianella_coronataVCO07 Valerianella_coronataVCO0805_A Valerianella_coronataVCO0806_A Valerianella_coronataVCO0901 Valerianella_coronataVCO0902 Valerianella_pumilaVPU03 Valerianella_pumilaVPU04
+ - Valerianella_coronataVCO05 : 
+ - Valerianella_dentataVDE03 :  Valerianella_rimosaVRI01 Valerianella_rimosaVRI02
+ - Valerianella_discoideaVDI02 :  Valerianella_discoideaVDI04 Valerianella_multidentataVMO02 Valerianella_multidentataVMO03
+ - Valerianella_echinataVEH01 : 
+ - Valerianella_eriocarpaVER02 : 
+ - Valerianella_eriocarpaVER04 : 
+ - Valerianella_fusiformisVFU01 : 
+ - Valerianella_locustaVLO0508_C : 
+ - Valerianella_microcarpaVMI01 : 
+ - Valerianella_pumilaVPU01_A : 
+
+
+
+CONNECTIONS
+adding two min taxa 4[Valerianella_carinataVCA0308] , 2[Valerianella_carinataVCA02]
+In clusters 3 , 6 distance 5
+adding two min taxa 2[Valerianella_carinataVCA02] , 1[Valerianella_carinataVCA0105]
+In clusters 3 , 11 distance 5
+adding two min taxa 16[Valerianella_microcarpaVMI01] , 10[Valerianella_discoideaVDI02]
+In clusters 9 , 14 distance 28
+adding two min taxa 11[Valerianella_echinataVEH01] , 10[Valerianella_discoideaVDI02]
+In clusters 3 , 9 distance 54
+
+
+REAL DISTANCE MATRIX
+pos:   														  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 
+[Valerianella_carinataVCA0104]1 	: --  1  6  8  7  8  11  63  62  61  57  34  56  57  76  8  56  64 
+[Valerianella_carinataVCA0105]2 	: 1  --  5  7  6  7  10  62  61  60  56  33  55  56  75  7  55  63 
+[Valerianella_carinataVCA02]3 	: 6  5  --  6  5  2  5  67  66  65  61  36  60  61  80  2  60  68 
+[Valerianella_carinataVCA0302]4 	: 8  7  6  --  1  8  11  69  68  67  63  40  62  63  80  8  62  70 
+[Valerianella_carinataVCA0308]5 	: 7  6  5  1  --  7  10  68  67  66  62  39  61  62  79  7  61  69 
+[Valerianella_carinataVCA0805]6 	: 8  7  2  8  7  --  6  69  68  67  63  38  62  63  82  2  62  69 
+[Valerianella_carinataVCA0810]7 	: 11  10  5  11  10  6  --  72  71  70  66  40  65  66  85  7  65  73 
+[Valerianella_coronataVCO01]8 	: 63  62  67  69  68  69  72  --  1  33  11  59  32  33  77  69  31  1 
+[Valerianella_coronataVCO05]9 	: 62  61  66  68  67  68  71  1  --  34  12  58  33  34  78  68  32  2 
+[Valerianella_dentataVDE03]10	: 61  60  65  67  66  67  70  33  34  --  30  60  13  14  79  67  12  34 
+[Valerianella_discoideaVDI02]11	: 57  56  61  63  62  63  66  11  12  30  --  54  29  30  71  63  28  12 
+[Valerianella_echinataVEH01]12	: 34  33  36  40  39  38  40  59  58  60  54  --  58  58  77  38  57  60 
+[Valerianella_eriocarpaVER02]13	: 56  55  60  62  61  62  65  32  33  13  29  58  --  1  76  62  3  33 
+[Valerianella_eriocarpaVER04]14	: 57  56  61  63  62  63  66  33  34  14  30  58  1  --  77  63  4  34 
+[Valerianella_fusiformisVFU01]15	: 76  75  80  80  79  82  85  77  78  79  71  77  76  77  --  82  75  78 
+[Valerianella_locustaVLO0508_C]16	: 8  7  2  8  7  2  7  69  68  67  63  38  62  63  82  --  62  69 
+[Valerianella_microcarpaVMI01]17	: 56  55  60  62  61  62  65  31  32  12  28  57  3  4  75  62  --  32 
+[Valerianella_pumilaVPU01_A]18	: 64  63  68  70  69  69  73  1  2  34  12  60  33  34  78  69  32  -- 
+
+
+
+COMPUTED FROM THE NETWORK DISTANCE MATRIX
+pos:   														  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 
+[Valerianella_carinataVCA0104]1 	: --  1  6  8  7  8  11  63  64  82  58  34  81  82  125  8  80  64 
+[Valerianella_carinataVCA0105]2 	: 1  --  5  7  6  7  10  62  63  81  57  33  80  81  124  7  79  63 
+[Valerianella_carinataVCA02]3 	: 6  5  --  6  5  2  5  67  68  86  62  38  85  86  129  2  84  68 
+[Valerianella_carinataVCA0302]4 	: 8  7  6  --  1  8  11  69  70  88  64  40  87  88  131  8  86  70 
+[Valerianella_carinataVCA0308]5 	: 7  6  5  1  --  7  10  68  69  87  63  39  86  87  130  7  85  69 
+[Valerianella_carinataVCA0805]6 	: 8  7  2  8  7  --  7  69  70  88  64  40  87  88  131  2  86  70 
+[Valerianella_carinataVCA0810]7 	: 11  10  5  11  10  7  --  72  73  91  67  43  90  91  134  7  89  73 
+[Valerianella_coronataVCO01]8 	: 63  62  67  69  68  69  72  --  1  33  11  59  32  33  78  69  31  1 
+[Valerianella_coronataVCO05]9 	: 64  63  68  70  69  70  73  1  --  34  12  60  33  34  79  70  32  2 
+[Valerianella_dentataVDE03]10	: 82  81  86  88  87  88  91  33  34  --  30  78  13  14  97  88  12  34 
+[Valerianella_discoideaVDI02]11	: 58  57  62  64  63  64  67  11  12  30  --  54  29  30  71  64  28  12 
+[Valerianella_echinataVEH01]12	: 34  33  38  40  39  40  43  59  60  78  54  --  77  78  121  40  76  60 
+[Valerianella_eriocarpaVER02]13	: 81  80  85  87  86  87  90  32  33  13  29  77  --  1  96  87  3  33 
+[Valerianella_eriocarpaVER04]14	: 82  81  86  88  87  88  91  33  34  14  30  78  1  --  97  88  4  34 
+[Valerianella_fusiformisVFU01]15	: 125  124  129  131  130  131  134  78  79  97  71  121  96  97  --  131  95  79 
+[Valerianella_locustaVLO0508_C]16	: 8  7  2  8  7  2  7  69  70  88  64  40  87  88  131  --  86  70 
+[Valerianella_microcarpaVMI01]17	: 80  79  84  86  85  86  89  31  32  12  28  76  3  4  95  86  --  32 
+[Valerianella_pumilaVPU01_A]18	: 64  63  68  70  69  70  73  1  2  34  12  60  33  34  79  70  32  -- 
+
+
+
+DIFFERENCE MATRIX 
+pos:   														  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18 
+[Valerianella_carinataVCA0104]1 	: --  0  0  0  0  0  0  0  2  21  1  0  25  25  49  0  24  0 
+[Valerianella_carinataVCA0105]2 	: 0  --  0  0  0  0  0  0  2  21  1  0  25  25  49  0  24  0 
+[Valerianella_carinataVCA02]3 	: 0  0  --  0  0  0  0  0  2  21  1  2  25  25  49  0  24  0 
+[Valerianella_carinataVCA0302]4 	: 0  0  0  --  0  0  0  0  2  21  1  0  25  25  51  0  24  0 
+[Valerianella_carinataVCA0308]5 	: 0  0  0  0  --  0  0  0  2  21  1  0  25  25  51  0  24  0 
+[Valerianella_carinataVCA0805]6 	: 0  0  0  0  0  --  1  0  2  21  1  2  25  25  49  0  24  1 
+[Valerianella_carinataVCA0810]7 	: 0  0  0  0  0  1  --  0  2  21  1  3  25  25  49  0  24  0 
+[Valerianella_coronataVCO01]8 	: 0  0  0  0  0  0  0  --  0  0  0  0  0  0  1  0  0  0 
+[Valerianella_coronataVCO05]9 	: 2  2  2  2  2  2  2  0  --  0  0  2  0  0  1  2  0  0 
+[Valerianella_dentataVDE03]10	: 21  21  21  21  21  21  21  0  0  --  0  18  0  0  18  21  0  0 
+[Valerianella_discoideaVDI02]11	: 1  1  1  1  1  1  1  0  0  0  --  0  0  0  0  1  0  0 
+[Valerianella_echinataVEH01]12	: 0  0  2  0  0  2  3  0  2  18  0  --  19  20  44  2  19  0 
+[Valerianella_eriocarpaVER02]13	: 25  25  25  25  25  25  25  0  0  0  0  19  --  0  20  25  0  0 
+[Valerianella_eriocarpaVER04]14	: 25  25  25  25  25  25  25  0  0  0  0  20  0  --  20  25  0  0 
+[Valerianella_fusiformisVFU01]15	: 49  49  49  51  51  49  49  1  1  18  0  44  20  20  --  49  20  1 
+[Valerianella_locustaVLO0508_C]16	: 0  0  0  0  0  0  0  0  2  21  1  2  25  25  49  --  24  1 
+[Valerianella_microcarpaVMI01]17	: 24  24  24  24  24  24  24  0  0  0  0  19  0  0  20  24  --  0 
+[Valerianella_pumilaVPU01_A]18	: 0  0  0  0  0  1  0  0  0  0  0  0  0  0  1  1  0  -- 
+
+The total positive difference matrix is 1395.0
+
+The total negative difference matrix is 0.0
+
+
+
+OUTGROUP WEIGHTS
+*** Network 1
+Valerianella_carinataVCA0302 weigth = 0.01098901098901099
+Valerianella_carinataVCA0308 weigth = 0.04395604395604396
+Valerianella_carinataVCA0810 weigth = 0.01098901098901099
+Valerianella_carinataVCA02 weigth = 0.3516483516483517
+Valerianella_carinataVCA0805 weigth = 0.01098901098901099
+Valerianella_locustaVLO0508_C weigth = 0.01098901098901099
+Valerianella_echinataVEH01 weigth = 0.01098901098901099
+Valerianella_carinataVCA0104 weigth = 0.02197802197802198
+Valerianella_carinataVCA0105 weigth = 0.06593406593406594
+Valerianella_dentataVDE03 weigth = 0.03296703296703297
+Valerianella_microcarpaVMI01 weigth = 0.01098901098901099
+Valerianella_eriocarpaVER02 weigth = 0.04395604395604396
+Valerianella_eriocarpaVER04 weigth = 0.01098901098901099
+Valerianella_fusiformisVFU01 weigth = 0.01098901098901099
+Valerianella_discoideaVDI02 weigth = 0.04395604395604396
+Valerianella_coronataVCO01 weigth = 0.2857142857142857
+Valerianella_coronataVCO05 weigth = 0.01098901098901099
+Valerianella_pumilaVPU01_A weigth = 0.01098901098901099
+Total weight = 45.5
+Biggest outgroup probability is Valerianella_carinataVCA02 (0.3516483516483517)
+
+
+
+Calculations are finished.
+
+
+
+_________________________________________________________
+TCS v1.21
+Thu Mar 18 16:56:48 COT 2021
+Datafile = C:\TCS1.21\ValerianellaTFfasta_TCS_gapsfinalreducida.nex
+
+It took 0.0351 minutes.
