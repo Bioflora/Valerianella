@@ -1,0 +1,249 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Partition file name: ValerianellaCombgaps_1indvpb.nex
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 198838
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst Biol, 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 40 taxa with 2 partitions and 1661 total sites (0% missing data)
+
+  ID  Name   Type	Seq	Site	Unique	Infor	Invar	Const
+   1  part1  DNA	30	1625	255	149	1386	1386
+   2  part2  BIN	30	36	17	27	0	0
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-unlinked partition model and separate models between partitions
+
+  ID  Model         TreeLen  Parameters
+   1  K3Pu+F+I       0.2343  K3Pu{1.64802,0.351904}+F{0.302123,0.172659,0.158813,0.366405}+I{0.474536}
+   2  JC2+FQ+ASC     0.3392  JC2+ASC
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -3970.8769 (s.e. 98.3865)
+Unconstrained log-likelihood (without tree): -5602.2306
+Number of free parameters (#branches + #model parameters): 120
+Akaike information criterion (AIC) score: 8181.7537
+Corrected Akaike information criterion (AICc) score: 8200.6109
+Bayesian information criterion (BIC) score: 8831.5748
+
+Total tree length (sum of branch lengths): 0.2365
+Sum of internal branch lengths: 0.1268 (53.5860% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Centranthus_calcitrapae_CC25' is drawn at root
+NOTE: Branch lengths are weighted average over all partitions
+      (weighted by the number of sites in the partitions)
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**Centranthus_calcitrapae_CC25
+|
++--Centranthus_calcitrapae_CC539
+|
+|                                   +---------------Fedia_cornucopiae_FC73
+|                                +--| (94)
+|                                |  |             +**Valerianella_carinata_VCA0104
+|                                |  |          +--| (89)
+|                                |  |          |  +**Valerianella_lusitanica_VLU0102
+|                                |  |   +------| (100)
+|                                |  |   |      |           +**Valerianella_carinata_VCA0202
+|                                |  |   |      |        +**| (49)
+|                                |  |   |      |        |  +**Valerianella_carinata_VCA0918
+|                                |  |   |      |     +**| (47)
+|                                |  |   |      |     |  |        +**Valerianella_carinata_VCA0501
+|                                |  |   |      |     |  |     +**| (82)
+|                                |  |   |      |     |  |     |  +**Valerianella_carinata_VCA1006
+|                                |  |   |      |     |  |  +**| (61)
+|                                |  |   |      |     |  |  |  |  +**Valerianella_carinata_VCA1106
+|                                |  |   |      |     |  |  |  +**| (36)
+|                                |  |   |      |     |  |  |     +**Valerianella_carinata_VCA1202
+|                                |  |   |      |     |  +--| (96)
+|                                |  |   |      |     |     +**Valerianella_locusta_VLO0505
+|                                |  |   |      |  +--| (87)
+|                                |  |   |      |  |  +--Valerianella_carinata_VCA0805
+|                                |  |   |      +--| (98)
+|                                |  |   |         +--Valerianella_carinata_VCA0302
+|                                |  +---| (98)
+|                                |      +-------Valerianella_echinata_VEC0101
++--------------------------------| (100)
+                                 |                      +**Valerianella_coronata_VCO0102
+                                 |                   +**| (76)
+                                 |                   |  |     +**Valerianella_coronata_VCO0218
+                                 |                   |  |  +**| (54)
+                                 |                   |  |  |  +**Valerianella_coronata_VCO0705
+                                 |                   |  +**| (28)
+                                 |                   |     +--Valerianella_pumila_VPU0103
+                                 |                +**| (75)
+                                 |                |  +**Valerianella_pumila_VPU0402
+                                 |             +--| (100)
+                                 |             |  +**Valerianella_coronata_VCO0508
+                                 |         +---| (100)
+                                 |         |   |  +**Valerianella_discoidea_VDI0202
+                                 |         |   +--| (97)
+                                 |         |      +**Valerianella_discoidea_VDI0412
+                                 |  +------| (100)
+                                 |  |      |         +**Valerianella_dentata_VDE0303
+                                 |  |      |      +**| (50)
+                                 |  |      |      |  +**Valerianella_rimosa_VRI0101
+                                 |  |      |  +---| (100)
+                                 |  |      |  |   +**Valerianella_rimosa_VRI0201
+                                 |  |      +--| (100)
+                                 |  |         |     +**Valerianella_eriocarpa_VER0208
+                                 |  |         |  +--| (94)
+                                 |  |         |  |  +--Valerianella_eriocarpa_VER0402
+                                 |  |         +--| (98)
+                                 |  |            +--Valerianella_microcarpa_VMI0102
+                                 +--| (72)
+                                    +------------------------Valerianella_fusiformis_VFU0103
+
+Tree in newick format:
+
+(Centranthus_calcitrapae_CC25:0.0000022123,Centranthus_calcitrapae_CC539:0.0006429787,((Fedia_cornucopiae_FC73:0.0283793816,(((Valerianella_carinata_VCA0104:0.0000022123,Valerianella_lusitanica_VLU0102:0.0000022123)89:0.0014840471,((((Valerianella_carinata_VCA0202:0.0000022123,Valerianella_carinata_VCA0918:0.0000022123)49:0.0000022122,(((Valerianella_carinata_VCA0501:0.0000022123,Valerianella_carinata_VCA1006:0.0000022123)82:0.0000022122,(Valerianella_carinata_VCA1106:0.0000022123,Valerianella_carinata_VCA1202:0.0000022123)36:0.0000022122)61:0.0000020826,Valerianella_locusta_VLO0505:0.0000022123)96:0.0007492358)47:0.0000022122,Valerianella_carinata_VCA0805:0.0022522946)87:0.0014959807,Valerianella_carinata_VCA0302:0.0045510411)98:0.0030214979)100:0.0123603924,Valerianella_echinata_VEC0101:0.0150678948)98:0.0069871676)94:0.0048893810,((((((Valerianella_coronata_VCO0102:0.0000022123,((Valerianella_coronata_VCO0218:0.0000022123,Valerianella_coronata_VCO0705:0.0000022123)54:0.0000022122,Valerianella_pumila_VPU0103:0.0008163401)28:0.0000022122)76:0.0000022122,Valerianella_pumila_VPU0402:0.0000022123)75:0.0000022122,Valerianella_coronata_VCO0508:0.0001733447)100:0.0058471430,(Valerianella_discoidea_VDI0202:0.0000022123,Valerianella_discoidea_VDI0412:0.0000022123)97:0.0019647809)100:0.0085010255,(((Valerianella_dentata_VDE0303:0.0000022123,Valerianella_rimosa_VRI0101:0.0000022123)50:0.0000022122,Valerianella_rimosa_VRI0201:0.0001733421)100:0.0068748833,((Valerianella_eriocarpa_VER0208:0.0000022123,Valerianella_eriocarpa_VER0402:0.0008157484)94:0.0016347609,Valerianella_microcarpa_VMI0102:0.0024656759)98:0.0034424402)100:0.0068220707)100:0.0122297979,Valerianella_fusiformis_VFU0103:0.0433232467)72:0.0025569804)100:0.0569567539);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -3970.879182
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Centranthus_calcitrapae_CC25
+|
++--Centranthus_calcitrapae_CC539
+|
+|                                   +---------------Fedia_cornucopiae_FC73
+|                                +--| (94)
+|                                |  |             +--Valerianella_carinata_VCA0104
+|                                |  |          +--| (89)
+|                                |  |          |  +--Valerianella_lusitanica_VLU0102
+|                                |  |   +------| (100)
+|                                |  |   |      |              +**Valerianella_carinata_VCA0202
+|                                |  |   |      |           +--|
+|                                |  |   |      |           |  +**Valerianella_locusta_VLO0609
+|                                |  |   |      |        +--| (49)
+|                                |  |   |      |        |  +--Valerianella_carinata_VCA0918
+|                                |  |   |      |     +--| (47)
+|                                |  |   |      |     |  |        +--Valerianella_carinata_VCA0501
+|                                |  |   |      |     |  |     +--| (82)
+|                                |  |   |      |     |  |     |  +--Valerianella_carinata_VCA1006
+|                                |  |   |      |     |  |  +--| (61)
+|                                |  |   |      |     |  |  |  |           +**Valerianella_carinata_VCA1106
+|                                |  |   |      |     |  |  |  |        +**|
+|                                |  |   |      |     |  |  |  |        |  +**Valerianella_locusta_VLO0103
+|                                |  |   |      |     |  |  |  |     +**|
+|                                |  |   |      |     |  |  |  |     |  +**Valerianella_locusta_VLO0305
+|                                |  |   |      |     |  |  |  |  +--|
+|                                |  |   |      |     |  |  |  |  |  +**Valerianella_locusta_VLO0409
+|                                |  |   |      |     |  |  |  +--| (36)
+|                                |  |   |      |     |  |  |     +--Valerianella_carinata_VCA1202
+|                                |  |   |      |     |  +--| (96)
+|                                |  |   |      |     |     +--Valerianella_locusta_VLO0505
+|                                |  |   |      |  +--| (87)
+|                                |  |   |      |  |  +--Valerianella_carinata_VCA0805
+|                                |  |   |      +--| (98)
+|                                |  |   |         +--Valerianella_carinata_VCA0302
+|                                |  +---| (98)
+|                                |      +-------Valerianella_echinata_VEC0101
++--------------------------------| (100)
+                                 |                                     +**Valerianella_coronata_VCO0102
+                                 |                                  +**|
+                                 |                                  |  +**Valerianella_coronata_VCO0901
+                                 |                               +**|
+                                 |                               |  +**Valerianella_pumila_VPU0304
+                                 |                            +**|
+                                 |                            |  +**Valerianella_coronata_VCO0404
+                                 |                         +--|
+                                 |                         |  +**Valerianella_coronata_VCO0805
+                                 |                      +--| (39)
+                                 |                      |  |  +--Valerianella_coronata_VCO0218
+                                 |                      |  +--| (54)
+                                 |                      |     +--Valerianella_coronata_VCO0705
+                                 |                   +--| (76)
+                                 |                   |  +--Valerianella_pumila_VPU0103
+                                 |                +--| (75)
+                                 |                |  +--Valerianella_pumila_VPU0402
+                                 |             +--| (100)
+                                 |             |  +--Valerianella_coronata_VCO0508
+                                 |         +---| (100)
+                                 |         |   |        +**Valerianella_discoidea_VDI0202
+                                 |         |   |     +**|
+                                 |         |   |     |  +**Valerianella_multidentata_VMU02001
+                                 |         |   |  +--|
+                                 |         |   |  |  +**Valerianella_multidentata_VMU03001
+                                 |         |   +--| (97)
+                                 |         |      +--Valerianella_discoidea_VDI0412
+                                 |  +------| (100)
+                                 |  |      |         +--Valerianella_dentata_VDE0303
+                                 |  |      |      +--| (50)
+                                 |  |      |      |  +--Valerianella_rimosa_VRI0101
+                                 |  |      |  +---| (100)
+                                 |  |      |  |   +--Valerianella_rimosa_VRI0201
+                                 |  |      +--| (100)
+                                 |  |         |     +--Valerianella_eriocarpa_VER0208
+                                 |  |         |  +--| (94)
+                                 |  |         |  |  +--Valerianella_eriocarpa_VER0402
+                                 |  |         +--| (98)
+                                 |  |            +--Valerianella_microcarpa_VMI0102
+                                 +--| (72)
+                                    +------------------------Valerianella_fusiformis_VFU0103
+
+
+Consensus tree in newick format: 
+
+(Centranthus_calcitrapae_CC25:0.0000022122,Centranthus_calcitrapae_CC539:0.0006429817,((Fedia_cornucopiae_FC73:0.0283931582,(((Valerianella_carinata_VCA0104:0.0000022122,Valerianella_lusitanica_VLU0102:0.0000022122)89:0.0014841221,(((((Valerianella_carinata_VCA0202:0.0000000000,Valerianella_locusta_VLO0609:0.0000000000):0.0000022122,Valerianella_carinata_VCA0918:0.0000022122)49:0.0000022122,(((Valerianella_carinata_VCA0501:0.0000022122,Valerianella_carinata_VCA1006:0.0000022122)82:0.0000022122,((((Valerianella_carinata_VCA1106:0.0000000000,Valerianella_locusta_VLO0103:0.0000000000):0.0000000000,Valerianella_locusta_VLO0305:0.0000000000):0.0000000000,Valerianella_locusta_VLO0409:0.0000000000):0.0000022122,Valerianella_carinata_VCA1202:0.0000022122)36:0.0000022122)61:0.0000022122,Valerianella_locusta_VLO0505:0.0000022122)96:0.0007488003)47:0.0000022122,Valerianella_carinata_VCA0805:0.0022525700)87:0.0014960479,Valerianella_carinata_VCA0302:0.0045517768)98:0.0030222946)100:0.0123769590,Valerianella_echinata_VEC0101:0.0150703433)98:0.0069904494)94:0.0048903601,(((((((((((Valerianella_coronata_VCO0102:0.0000000000,Valerianella_coronata_VCO0901:0.0000000000):0.0000000000,Valerianella_pumila_VPU0304:0.0000000000):0.0000000000,Valerianella_coronata_VCO0404:0.0000000000):0.0000000000,Valerianella_coronata_VCO0805:0.0000000000):0.0000022122,(Valerianella_coronata_VCO0218:0.0000022122,Valerianella_coronata_VCO0705:0.0000022122)54:0.0000022122)39:0.0000022122,Valerianella_pumila_VPU0103:0.0008167396)76:0.0000022122,Valerianella_pumila_VPU0402:0.0000022122)75:0.0000022122,Valerianella_coronata_VCO0508:0.0001749747)100:0.0058473191,(((Valerianella_discoidea_VDI0202:0.0000000000,Valerianella_multidentata_VMU02001:0.0000000000):0.0000000000,Valerianella_multidentata_VMU03001:0.0000000000):0.0000022122,Valerianella_discoidea_VDI0412:0.0000022122)97:0.0019682941)100:0.0085029328,(((Valerianella_dentata_VDE0303:0.0000022122,Valerianella_rimosa_VRI0101:0.0000022122)50:0.0000022122,Valerianella_rimosa_VRI0201:0.0001750400)100:0.0068772306,((Valerianella_eriocarpa_VER0208:0.0000022122,Valerianella_eriocarpa_VER0402:0.0008161046)94:0.0016355126,Valerianella_microcarpa_VMI0102:0.0024658247)98:0.0034444915)100:0.0068242152)100:0.0122383671,Valerianella_fusiformis_VFU0103:0.0433319296)72:0.0025567312)100:0.0569840794);
+
+TIME STAMP
+----------
+
+Date and time: Mon Dec 13 16:31:21 2021
+Total CPU time used: 5.59375 seconds (0h:0m:5s)
+Total wall-clock time used: 6.2159504 seconds (0h:0m:6s)
+

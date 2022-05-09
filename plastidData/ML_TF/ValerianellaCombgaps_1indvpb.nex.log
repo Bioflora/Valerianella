@@ -1,0 +1,218 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MICRO-BIO-033 (AVX2, FMA3, 7 GB RAM)
+Command: bin\iqtree -sp ValerianellaCombgaps_1indvpb.nex -bb 1000
+Seed:    198838 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec 13 16:31:14 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file ValerianellaCombgaps_1indvpb.nex ...
+
+Loading 2 partitions...
+Reading alignment file ValerianellaTFfasta_renombrada_1indvporpb.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 40 sequences with 1625 columns, 255 distinct patterns
+149 parsimony-informative, 90 singleton sites, 1386 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  Centranthus_calcitrapae_CC25          6.52%    passed     97.15%
+   2  Centranthus_calcitrapae_CC539         6.58%    passed     96.96%
+   3  Fedia_cornucopiae_FC73               17.42%    passed     78.93%
+   4  Valerianella_carinata_VCA0104        19.20%    passed     98.95%
+   5  Valerianella_carinata_VCA0202        19.69%    passed     99.10%
+   6  Valerianella_carinata_VCA0302        19.63%    passed     97.30%
+   7  Valerianella_carinata_VCA0501        20.18%    passed     98.37%
+   8  Valerianella_carinata_VCA0805        19.69%    passed     97.78%
+   9  Valerianella_carinata_VCA0918        19.69%    passed     99.10%
+  10  Valerianella_carinata_VCA1006        20.18%    passed     98.37%
+  11  Valerianella_carinata_VCA1106        19.75%    passed     98.63%
+  12  Valerianella_carinata_VCA1202        19.75%    passed     98.63%
+  13  Valerianella_coronata_VCO0102        26.52%    passed     98.70%
+  14  Valerianella_coronata_VCO0218        26.52%    passed     98.70%
+  15  Valerianella_coronata_VCO0404        26.52%    passed     98.70%
+  16  Valerianella_coronata_VCO0508        26.15%    passed     99.39%
+  17  Valerianella_coronata_VCO0705        26.46%    passed     98.78%
+  18  Valerianella_coronata_VCO0805        26.52%    passed     98.70%
+  19  Valerianella_coronata_VCO0901        26.52%    passed     98.70%
+  20  Valerianella_dentata_VDE0303         26.83%    passed     99.44%
+  21  Valerianella_discoidea_VDI0202       26.28%    passed     99.78%
+  22  Valerianella_discoidea_VDI0412       26.28%    passed     99.78%
+  23  Valerianella_echinata_VEC0101        19.57%    passed     95.86%
+  24  Valerianella_eriocarpa_VER0208       26.65%    passed     95.66%
+  25  Valerianella_eriocarpa_VER0402       26.65%    passed     96.47%
+  26  Valerianella_fusiformis_VFU0103      17.11%    passed     98.27%
+  27  Valerianella_locusta_VLO0103         19.75%    passed     98.63%
+  28  Valerianella_locusta_VLO0305         19.75%    passed     98.63%
+  29  Valerianella_locusta_VLO0409         19.75%    passed     98.63%
+  30  Valerianella_locusta_VLO0505         19.69%    passed     98.72%
+  31  Valerianella_locusta_VLO0609         19.69%    passed     99.10%
+  32  Valerianella_lusitanica_VLU0102      19.08%    passed     98.79%
+  33  Valerianella_microcarpa_VMI0102      26.83%    passed     94.50%
+  34  Valerianella_multidentata_VMU02001   26.28%    passed     99.78%
+  35  Valerianella_multidentata_VMU03001   26.28%    passed     99.78%
+  36  Valerianella_pumila_VPU0103          26.52%    passed     98.75%
+  37  Valerianella_pumila_VPU0304          26.52%    passed     98.70%
+  38  Valerianella_pumila_VPU0402          26.46%    passed     98.78%
+  39  Valerianella_rimosa_VRI0101          26.83%    passed     99.44%
+  40  Valerianella_rimosa_VRI0201          26.83%    passed     99.44%
+****  TOTAL                                22.33%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file codificaciongapsIAS_1indviporpb.phy ... Phylip format detected
+Alignment most likely contains binary sequences
+Alignment has 40 sequences with 36 columns, 17 distinct patterns
+27 parsimony-informative, 9 singleton sites, 0 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  Centranthus_calcitrapae_CC25          0.00%    failed      0.18%
+   2  Centranthus_calcitrapae_CC539         0.00%    failed      0.18%
+   3  Fedia_cornucopiae_FC73                0.00%    failed      3.60%
+   4  Valerianella_carinata_VCA0104         0.00%    passed     96.59%
+   5  Valerianella_carinata_VCA0202         0.00%    passed     96.59%
+   6  Valerianella_carinata_VCA0302         0.00%    passed     96.59%
+   7  Valerianella_carinata_VCA0501         0.00%    passed     96.59%
+   8  Valerianella_carinata_VCA0805         0.00%    passed     96.59%
+   9  Valerianella_carinata_VCA0918         0.00%    passed     96.59%
+  10  Valerianella_carinata_VCA1006         0.00%    passed     96.59%
+  11  Valerianella_carinata_VCA1106         0.00%    passed     96.59%
+  12  Valerianella_carinata_VCA1202         0.00%    passed     96.59%
+  13  Valerianella_coronata_VCO0102         0.00%    passed     76.45%
+  14  Valerianella_coronata_VCO0218         0.00%    passed     76.45%
+  15  Valerianella_coronata_VCO0404         0.00%    passed     76.45%
+  16  Valerianella_coronata_VCO0508         0.00%    passed     96.59%
+  17  Valerianella_coronata_VCO0705         0.00%    passed     76.45%
+  18  Valerianella_coronata_VCO0805         0.00%    passed     76.45%
+  19  Valerianella_coronata_VCO0901         0.00%    passed     76.45%
+  20  Valerianella_dentata_VDE0303          0.00%    passed     18.45%
+  21  Valerianella_discoidea_VDI0202        0.00%    passed     76.45%
+  22  Valerianella_discoidea_VDI0412        0.00%    passed     76.45%
+  23  Valerianella_echinata_VEC0101         0.00%    passed     28.46%
+  24  Valerianella_eriocarpa_VER0208        0.00%    passed     18.45%
+  25  Valerianella_eriocarpa_VER0402        0.00%    passed     18.45%
+  26  Valerianella_fusiformis_VFU0103       0.00%    failed      3.60%
+  27  Valerianella_locusta_VLO0103          0.00%    passed     96.59%
+  28  Valerianella_locusta_VLO0305          0.00%    passed     96.59%
+  29  Valerianella_locusta_VLO0409          0.00%    passed     96.59%
+  30  Valerianella_locusta_VLO0505          0.00%    passed     96.59%
+  31  Valerianella_locusta_VLO0609          0.00%    passed     96.59%
+  32  Valerianella_lusitanica_VLU0102       0.00%    passed     96.59%
+  33  Valerianella_microcarpa_VMI0102       0.00%    passed     18.45%
+  34  Valerianella_multidentata_VMU02001    0.00%    passed     76.45%
+  35  Valerianella_multidentata_VMU03001    0.00%    passed     76.45%
+  36  Valerianella_pumila_VPU0103           0.00%    passed     76.45%
+  37  Valerianella_pumila_VPU0304           0.00%    passed     76.45%
+  38  Valerianella_pumila_VPU0402           0.00%    passed     76.45%
+  39  Valerianella_rimosa_VRI0101           0.00%    passed     18.45%
+  40  Valerianella_rimosa_VRI0201           0.00%    passed      9.50%
+****  TOTAL                                 0.00%  4 sequences failed composition chi2 test (p-value<5%; df=1)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1		40	1625	149	1386	K3Pu+F+I	part1
+2	BIN	40	36	27	0	JC2+FQ+ASC	part2
+Degree of missing data: 0.000
+Info: multi-threading strategy over partitions
+
+NOTE: Valerianella_carinata_VCA0918 is identical to Valerianella_carinata_VCA0202 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA1006 is identical to Valerianella_carinata_VCA0501 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA1202 is identical to Valerianella_carinata_VCA1106 but kept for subsequent analysis
+NOTE: Valerianella_coronata_VCO0218 is identical to Valerianella_coronata_VCO0102 but kept for subsequent analysis
+NOTE: Valerianella_rimosa_VRI0101 is identical to Valerianella_dentata_VDE0303 but kept for subsequent analysis
+NOTE: Valerianella_discoidea_VDI0412 is identical to Valerianella_discoidea_VDI0202 but kept for subsequent analysis
+NOTE: 10 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Valerianella_locusta_VLO0609 (identical to Valerianella_carinata_VCA0202) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0103 (identical to Valerianella_carinata_VCA1106) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0305 (identical to Valerianella_carinata_VCA1106) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0409 (identical to Valerianella_carinata_VCA1106) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0404 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0805 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0901 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0304 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_multidentata_VMU02001 (identical to Valerianella_discoidea_VDI0202) is ignored but added at the end
+NOTE: Valerianella_multidentata_VMU03001 (identical to Valerianella_discoidea_VDI0202) is ignored but added at the end
+Concatenated alignment was printed to ValerianellaCombgaps_1indvpb.nex.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ValerianellaCombgaps_1indvpb.nex.uniqueseq.phy
+Creating fast initial parsimony tree by random order stepwise addition...
+0.070 seconds, parsimony score: 325 (based on 275 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 198838)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Optimizing K3Pu+F+I parameters for partition part1 (63 free parameters)
+Optimizing JC2+FQ+ASC parameters for partition part2 (57 free parameters)
+Optimal log-likelihood: -3972.131
+Computing ML distances based on estimated model parameters... 0.016 sec
+Computing BIONJ tree...
+0.011 seconds
+Log-likelihood of BIONJ tree: -3972.095
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.167 second
+Computing log-likelihood of 98 initial trees ... 0.375 seconds
+Current best score: -3972.095
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3970.879
+Iteration 10 / LogL: -3970.888 / Time: 0h:0m:1s
+Iteration 20 / LogL: -3970.886 / Time: 0h:0m:1s
+Finish initializing candidate tree set (13)
+Current best tree score: -3970.879 / CPU time: 1.546
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3970.883 / Time: 0h:0m:2s (0h:0m:5s left)
+Iteration 40 / LogL: -3970.881 / Time: 0h:0m:2s (0h:0m:4s left)
+UPDATE BEST LOG-LIKELIHOOD: -3970.878
+Iteration 50 / LogL: -3970.881 / Time: 0h:0m:3s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -4002.190
+Iteration 60 / LogL: -3970.886 / Time: 0h:0m:3s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -3970.877
+Iteration 70 / LogL: -3970.884 / Time: 0h:0m:4s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -3970.877
+Iteration 80 / LogL: -3970.890 / Time: 0h:0m:4s (0h:0m:1s left)
+Iteration 90 / LogL: -3982.558 / Time: 0h:0m:5s (0h:0m:0s left)
+Iteration 100 / LogL: -3970.878 / Time: 0h:0m:5s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -4003.056
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Optimizing K3Pu+F+I parameters for partition part1 (63 free parameters)
+Optimizing JC2+FQ+ASC parameters for partition part2 (57 free parameters)
+Optimal log-likelihood: -3970.877
+BEST SCORE FOUND : -3970.877
+Creating bootstrap support values...
+Split supports printed to NEXUS file ValerianellaCombgaps_1indvpb.nex.splits.nex
+Total tree length: 0.237
+
+Total number of iterations: 102
+CPU time used for tree search: 5.375 sec (0h:0m:5s)
+Wall-clock time used for tree search: 5.627 sec (0h:0m:5s)
+Total CPU time used: 5.594 sec (0h:0m:5s)
+Total wall-clock time used: 6.107 sec (0h:0m:6s)
+
+Computing bootstrap consensus tree...
+Reading input file ValerianellaCombgaps_1indvpb.nex.splits.nex...
+30 taxa and 181 splits.
+Consensus tree written to ValerianellaCombgaps_1indvpb.nex.contree
+Reading input trees file ValerianellaCombgaps_1indvpb.nex.contree
+Log-likelihood of consensus tree: -3970.879
+
+Analysis results written to: 
+  IQ-TREE report:                ValerianellaCombgaps_1indvpb.nex.iqtree
+  Maximum-likelihood tree:       ValerianellaCombgaps_1indvpb.nex.treefile
+  Likelihood distances:          ValerianellaCombgaps_1indvpb.nex.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ValerianellaCombgaps_1indvpb.nex.splits.nex
+  Consensus tree:                ValerianellaCombgaps_1indvpb.nex.contree
+  Screen log file:               ValerianellaCombgaps_1indvpb.nex.log
+
+Date and Time: Mon Dec 13 16:31:21 2021

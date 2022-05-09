@@ -1,0 +1,15 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MICRO-BIO-033 (AVX2, FMA3, 7 GB RAM)
+Command: bin\iqtree -sp ValerianellaCombgaps.nex -bb 1000
+Seed:    49985 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec 13 16:30:55 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file ValerianellaCombgaps.nex ...
+ERROR: File not found ValerianellaCombgaps.nex

@@ -1,0 +1,10 @@
+#nexus
+begin sets;
+
+	charset part1 = ValerianellaTFfasta_renombrada_1indvporpb.phy: 1-1625;
+	charset part2 = codificaciongapsIAS_1indviporpb.phy: 1-36;
+	charpartition mymodels =
+		K3Pu+F+I: part1,
+		JC2+FQ+ASC: part2;
+end;
+

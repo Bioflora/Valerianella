@@ -1,0 +1,197 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MICRO-BIO-033 (AVX2, FMA3, 7 GB RAM)
+Command: bin\iqtree -s codificaciongapsIAS_1indviporpb.phy -m MFP
+Seed:    805676 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Dec 13 16:30:15 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file codificaciongapsIAS_1indviporpb.phy ... Phylip format detected
+Alignment most likely contains binary sequences
+Alignment has 40 sequences with 36 columns, 17 distinct patterns
+27 parsimony-informative, 9 singleton sites, 0 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  Centranthus_calcitrapae_CC25          0.00%    failed      0.18%
+   2  Centranthus_calcitrapae_CC539         0.00%    failed      0.18%
+   3  Fedia_cornucopiae_FC73                0.00%    failed      3.60%
+   4  Valerianella_carinata_VCA0104         0.00%    passed     96.59%
+   5  Valerianella_carinata_VCA0202         0.00%    passed     96.59%
+   6  Valerianella_carinata_VCA0302         0.00%    passed     96.59%
+   7  Valerianella_carinata_VCA0501         0.00%    passed     96.59%
+   8  Valerianella_carinata_VCA0805         0.00%    passed     96.59%
+   9  Valerianella_carinata_VCA0918         0.00%    passed     96.59%
+  10  Valerianella_carinata_VCA1006         0.00%    passed     96.59%
+  11  Valerianella_carinata_VCA1106         0.00%    passed     96.59%
+  12  Valerianella_carinata_VCA1202         0.00%    passed     96.59%
+  13  Valerianella_coronata_VCO0102         0.00%    passed     76.45%
+  14  Valerianella_coronata_VCO0218         0.00%    passed     76.45%
+  15  Valerianella_coronata_VCO0404         0.00%    passed     76.45%
+  16  Valerianella_coronata_VCO0508         0.00%    passed     96.59%
+  17  Valerianella_coronata_VCO0705         0.00%    passed     76.45%
+  18  Valerianella_coronata_VCO0805         0.00%    passed     76.45%
+  19  Valerianella_coronata_VCO0901         0.00%    passed     76.45%
+  20  Valerianella_dentata_VDE0303          0.00%    passed     18.45%
+  21  Valerianella_discoidea_VDI0202        0.00%    passed     76.45%
+  22  Valerianella_discoidea_VDI0412        0.00%    passed     76.45%
+  23  Valerianella_echinata_VEC0101         0.00%    passed     28.46%
+  24  Valerianella_eriocarpa_VER0208        0.00%    passed     18.45%
+  25  Valerianella_eriocarpa_VER0402        0.00%    passed     18.45%
+  26  Valerianella_fusiformis_VFU0103       0.00%    failed      3.60%
+  27  Valerianella_locusta_VLO0103          0.00%    passed     96.59%
+  28  Valerianella_locusta_VLO0305          0.00%    passed     96.59%
+  29  Valerianella_locusta_VLO0409          0.00%    passed     96.59%
+  30  Valerianella_locusta_VLO0505          0.00%    passed     96.59%
+  31  Valerianella_locusta_VLO0609          0.00%    passed     96.59%
+  32  Valerianella_lusitanica_VLU0102       0.00%    passed     96.59%
+  33  Valerianella_microcarpa_VMI0102       0.00%    passed     18.45%
+  34  Valerianella_multidentata_VMU02001    0.00%    passed     76.45%
+  35  Valerianella_multidentata_VMU03001    0.00%    passed     76.45%
+  36  Valerianella_pumila_VPU0103           0.00%    passed     76.45%
+  37  Valerianella_pumila_VPU0304           0.00%    passed     76.45%
+  38  Valerianella_pumila_VPU0402           0.00%    passed     76.45%
+  39  Valerianella_rimosa_VRI0101           0.00%    passed     18.45%
+  40  Valerianella_rimosa_VRI0201           0.00%    passed      9.50%
+****  TOTAL                                 0.00%  4 sequences failed composition chi2 test (p-value<5%; df=1)
+NOTE: Centranthus_calcitrapae_CC539 is identical to Centranthus_calcitrapae_CC25 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA0202 is identical to Valerianella_carinata_VCA0104 but kept for subsequent analysis
+NOTE: Valerianella_coronata_VCO0218 is identical to Valerianella_coronata_VCO0102 but kept for subsequent analysis
+NOTE: Valerianella_rimosa_VRI0101 is identical to Valerianella_dentata_VDE0303 but kept for subsequent analysis
+NOTE: Valerianella_discoidea_VDI0412 is identical to Valerianella_discoidea_VDI0202 but kept for subsequent analysis
+NOTE: Valerianella_eriocarpa_VER0402 is identical to Valerianella_eriocarpa_VER0208 but kept for subsequent analysis
+NOTE: 23 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Valerianella_carinata_VCA0302 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA0501 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA0805 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA0918 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA1006 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA1106 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA1202 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0103 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0305 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0409 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0505 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0609 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_lusitanica_VLU0102 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0404 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0705 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0805 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0901 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0103 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0304 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0402 (identical to Valerianella_coronata_VCO0102) is ignored but added at the end
+NOTE: Valerianella_multidentata_VMU02001 (identical to Valerianella_discoidea_VDI0202) is ignored but added at the end
+NOTE: Valerianella_multidentata_VMU03001 (identical to Valerianella_discoidea_VDI0202) is ignored but added at the end
+NOTE: Valerianella_microcarpa_VMI0102 (identical to Valerianella_eriocarpa_VER0208) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to codificaciongapsIAS_1indviporpb.phy.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.064 seconds, parsimony score: 41 (based on 36 sites)
+NOTE: ModelFinder requires 0 MB RAM!
+ModelFinder will test 44 binary models (sample size: 36) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC2+FQ        150.224      31  362.448      858.448      411.537
+  2  JC2+FQ+ASC    130.020      31  322.041      818.041      371.130
+  3  JC2+FQ+G4     150.235      32  364.469      1068.469     415.142
+  4  JC2+FQ+ASC+G4 129.998      32  323.995      1027.995     374.668
+  5  JC2+FQ+R2     150.224      33  366.448      1488.448     418.704
+  6  JC2+FQ+R3     150.224      35  370.447      2890.447     425.871
+ 14  JC2+FQ+ASC+R2 129.995      33  325.989      1447.989     378.245
+ 15  JC2+FQ+ASC+R3 129.972      35  329.943      2849.943     385.367
+ 23  GTR2+FO       150.185      32  364.369      1068.369     415.042
+ 24  GTR2+FO+ASC   129.997      32  323.994      1027.994     374.667
+ 25  GTR2+FO+G4    150.195      33  366.391      1488.391     418.647
+ 26  GTR2+FO+ASC+G4 129.997      33  325.995      1447.995     378.251
+ 27  GTR2+FO+R2    150.185      34  368.369      2748.369     422.209
+ 28  GTR2+FO+R3    150.185      36  372.369      3036.369     429.376
+ 36  GTR2+FO+ASC+R2 129.999      34  327.998      2707.998     381.838
+ 37  GTR2+FO+ASC+R3 129.970      36  331.939      2995.939     388.946
+Akaike Information Criterion:           JC2+FQ+ASC
+Corrected Akaike Information Criterion: JC2+FQ+ASC
+Bayesian Information Criterion:         JC2+FQ+ASC
+Best-fit model: JC2+FQ+ASC chosen according to BIC
+
+All model information printed to codificaciongapsIAS_1indviporpb.phy.model.gz
+CPU time for ModelFinder: 0.109 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.298 seconds (0h:0m:0s)
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -130.020
+Optimal log-likelihood: -129.986
+Parameters optimization took 1 rounds (0.011 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.010 seconds
+Log-likelihood of BIONJ tree: -133.410
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.038 second
+Computing log-likelihood of 98 initial trees ... 0.067 seconds
+Current best score: -129.986
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -129.974
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -129.959
+Iteration 10 / LogL: -129.959 / Time: 0h:0m:0s
+Iteration 20 / LogL: -129.959 / Time: 0h:0m:0s
+Finish initializing candidate tree set (16)
+Current best tree score: -129.959 / CPU time: 0.299
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 28: -129.958
+Iteration 30 / LogL: -131.525 / Time: 0h:0m:0s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -129.958
+Iteration 40 / LogL: -129.958 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 50 / LogL: -129.958 / Time: 0h:0m:0s (0h:0m:1s left)
+BETTER TREE FOUND at iteration 59: -129.958
+Iteration 60 / LogL: -129.958 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 70 / LogL: -129.958 / Time: 0h:0m:0s (0h:0m:1s left)
+Iteration 80 / LogL: -129.959 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -129.958
+Iteration 90 / LogL: -129.958 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 100 / LogL: -129.958 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 110 / LogL: -129.958 / Time: 0h:0m:1s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -129.958
+Iteration 120 / LogL: -129.958 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 130 / LogL: -129.958 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 140 / LogL: -129.959 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 150 / LogL: -129.959 / Time: 0h:0m:1s (0h:0m:0s left)
+Iteration 160 / LogL: -129.958 / Time: 0h:0m:1s (0h:0m:-1s left)
+TREE SEARCH COMPLETED AFTER 160 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -129.958
+Optimal log-likelihood: -129.958
+Parameters optimization took 1 rounds (0.008 sec)
+BEST SCORE FOUND : -129.958
+Total tree length: 0.340
+
+Total number of iterations: 160
+CPU time used for tree search: 1.500 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.637 sec (0h:0m:1s)
+Total CPU time used: 1.531 sec (0h:0m:1s)
+Total wall-clock time used: 1.792 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                codificaciongapsIAS_1indviporpb.phy.iqtree
+  Maximum-likelihood tree:       codificaciongapsIAS_1indviporpb.phy.treefile
+  Likelihood distances:          codificaciongapsIAS_1indviporpb.phy.mldist
+  Screen log file:               codificaciongapsIAS_1indviporpb.phy.log
+
+Date and Time: Mon Dec 13 16:30:18 2021
