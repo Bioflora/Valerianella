@@ -1,0 +1,370 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MICRO-BIO-033 (AVX2, FMA3, 7 GB RAM)
+Command: bin\iqtree -s ValerianellaLF2_renombradas2_IAS_Beauti3.phy -bb 1000
+Seed:    714340 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 10 11:11:34 2021
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ValerianellaLF2_renombradas2_IAS_Beauti3.phy ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 66 sequences with 945 columns, 307 distinct patterns
+125 parsimony-informative, 97 singleton sites, 723 constant sites
+                                    Gap/Ambiguity  Composition  p-value
+   1  Triplostegia_glandulifera            16.83%    passed     83.11%
+   2  Patrinia_saniculifolia                4.87%    passed     90.64%
+   3  Patrinia_gibbosa                      4.76%    passed     90.84%
+   4  Patrinia_villosa                      4.76%    passed     88.05%
+   5  Nardostachys_jatamansi                4.97%    passed     93.78%
+   6  Valeriana_dioica                      7.94%    passed     98.13%
+   7  Valeriana_edulis                      8.57%    passed     98.73%
+   8  Centranthus_lecoqii                   7.62%    passed     97.10%
+   9  Centranthus_sieberi                   8.04%    passed     99.81%
+  10  Centranthus_calcitrapae_CC25          6.67%    passed     95.33%
+  11  Centranthus_calcitrapae_CC539         6.67%    passed     95.33%
+  12  Plectritis_congesta                   8.04%    passed     97.15%
+  13  Valeriana_albonervata                 7.30%    passed     99.49%
+  14  Valeriana_nivalis                     7.83%    passed     98.96%
+  15  Valeriana_celtica                     8.68%    passed     95.58%
+  16  Valerianella_fusiformis              28.68%    passed     98.80%
+  17  Fedia_cornucopiae_FC73               27.30%    passed     90.87%
+  18  Fedia_cornucopiae_FCO0303            27.20%    passed     90.25%
+  19  Valerianella_echinata_VEC0101        28.25%    passed     95.37%
+  20  Valerianella_carinata_VCA0104        29.52%    passed     95.49%
+  21  Valerianella_carinata_VCA0405        29.52%    passed     95.49%
+  22  Valerianella_carinata_VCA0918        30.26%    passed     97.16%
+  23  Valerianella_carinata_VCA0302        30.26%    passed     94.88%
+  24  Valerianella_lusitanica_VLU0102      29.52%    passed     95.49%
+  25  Valerianella_carinata_VCA0501        31.01%    passed     95.61%
+  26  Valerianella_carinata_VCA1006        31.01%    passed     95.61%
+  27  Valerianella_carinata_VCA1202        30.26%    passed     97.16%
+  28  Valerianella_carinata_VCA0805        30.26%    passed     97.16%
+  29  Valerianella_carinata_VCA0308        30.26%    passed     94.88%
+  30  Valerianella_carinata_VCA0202        30.26%    passed     97.16%
+  31  Valerianella_carinata_VCA1106        30.26%    passed     97.16%
+  32  Valerianella_locusta_VLO0415         30.26%    passed     97.16%
+  33  Valerianella_locusta_VLO0305         30.26%    passed     97.16%
+  34  Valerianella_locusta_VLO0505         30.26%    passed     97.16%
+  35  Valerianella_locusta_VLO0103         30.26%    passed     97.16%
+  36  Valerianella_locusta_VLO0409         30.26%    passed     97.16%
+  37  Valerianella_locusta_VLO0609         30.26%    passed     97.16%
+  38  Valerianella_locusta                 30.37%    passed     96.17%
+  39  Valerianella_discoidea_VDI0412       41.27%    passed     99.36%
+  40  Valerianella_discoidea_VDI0202       41.27%    passed     99.36%
+  41  Valerianella_multidentata_VMU03001   41.27%    passed     99.36%
+  42  Valerianella_multidentata_VMU02001   41.27%    passed     99.36%
+  43  Valerianella_coronata_VCO0218        41.27%    passed     99.26%
+  44  Valerianella_coronata_VCO0119        41.27%    passed     99.26%
+  45  Valerianella_coronata_VCO0801        41.27%    passed     99.26%
+  46  Valerianella_coronata_VCO0404        41.27%    passed     99.26%
+  47  Valerianella_coronata_VCO0102        41.27%    passed     99.26%
+  48  Valerianella_coronata_VCO0705        41.16%    passed     98.80%
+  49  Valerianella_coronata_VCO0508        41.27%    passed     99.26%
+  50  Valerianella_coronata_VCO0901        41.27%    passed     99.26%
+  51  Valerianella_pumila_VPU0402          41.27%    passed     99.26%
+  52  Valerianella_pumila_VPU0103          41.27%    passed     99.26%
+  53  Valerianella_pumila_VPU0304          41.27%    passed     99.26%
+  54  Valerianella_coronata                41.48%    passed     99.58%
+  55  Valerianella_pumila                  41.48%    passed     98.21%
+  56  Valerianella_microcarpa_VMI0102      41.38%    passed     99.96%
+  57  Valerianella_eriocarpa_VER0402       41.27%    passed     99.66%
+  58  Valerianella_eriocarpa_VER0208       41.27%    passed     99.89%
+  59  Valerianella_rimosa_VRI0101          41.27%    passed     98.19%
+  60  Valerianella_rimosa_VR0202           41.27%    passed     98.19%
+  61  Valerianella_dentata_VDE0303         41.27%    passed     98.19%
+  62  Valerianella_eriocarpa               41.59%    passed     99.90%
+  63  Valerianella_microcarpa              41.27%    passed     99.66%
+  64  Valerianella_radiata                 41.27%    passed     98.28%
+  65  Valerianella_amarella                41.27%    passed     98.28%
+  66  Valerianella_florifera               41.27%    passed     97.71%
+****  TOTAL                                29.63%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Centranthus_calcitrapae_CC539 is identical to Centranthus_calcitrapae_CC25 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA0405 is identical to Valerianella_carinata_VCA0104 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA1202 is identical to Valerianella_carinata_VCA0918 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA0308 is identical to Valerianella_carinata_VCA0302 but kept for subsequent analysis
+NOTE: Valerianella_carinata_VCA1006 is identical to Valerianella_carinata_VCA0501 but kept for subsequent analysis
+NOTE: Valerianella_discoidea_VDI0202 is identical to Valerianella_discoidea_VDI0412 but kept for subsequent analysis
+NOTE: Valerianella_coronata_VCO0119 is identical to Valerianella_coronata_VCO0218 but kept for subsequent analysis
+NOTE: Valerianella_microcarpa is identical to Valerianella_eriocarpa_VER0402 but kept for subsequent analysis
+NOTE: Valerianella_rimosa_VR0202 is identical to Valerianella_rimosa_VRI0101 but kept for subsequent analysis
+NOTE: Valerianella_amarella is identical to Valerianella_radiata but kept for subsequent analysis
+NOTE: 21 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Valerianella_lusitanica_VLU0102 (identical to Valerianella_carinata_VCA0104) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA0805 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA0202 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_carinata_VCA1106 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0415 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0305 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0505 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0103 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0409 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_locusta_VLO0609 (identical to Valerianella_carinata_VCA0918) is ignored but added at the end
+NOTE: Valerianella_multidentata_VMU03001 (identical to Valerianella_discoidea_VDI0412) is ignored but added at the end
+NOTE: Valerianella_multidentata_VMU02001 (identical to Valerianella_discoidea_VDI0412) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0801 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0404 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0102 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0508 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_coronata_VCO0901 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0402 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0103 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_pumila_VPU0304 (identical to Valerianella_coronata_VCO0218) is ignored but added at the end
+NOTE: Valerianella_dentata_VDE0303 (identical to Valerianella_rimosa_VRI0101) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to ValerianellaLF2_renombradas2_IAS_Beauti3.phy.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.011 seconds
+NOTE: ModelFinder requires 5 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 945) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            3154.444     87  6482.888     6500.755     6904.941
+  2  JC+I          3137.905     88  6451.810     6470.109     6878.714
+  3  JC+G4         3136.631     88  6449.263     6467.562     6876.167
+  4  JC+I+G4       3136.790     89  6451.581     6470.318     6883.336
+  5  JC+R2         3137.240     89  6452.480     6471.217     6884.236
+  6  JC+R3         3136.753     91  6455.507     6475.136     6896.965
+ 14  F81+F         3113.974     90  6407.947     6427.128     6844.554
+ 15  F81+F+I       3099.968     91  6381.935     6401.565     6823.393
+ 16  F81+F+G4      3098.774     91  6379.548     6399.178     6821.006
+ 17  F81+F+I+G4    3099.032     92  6382.064     6402.148     6828.373
+ 18  F81+F+R2      3099.123     92  6382.247     6402.331     6828.556
+ 19  F81+F+R3      3098.828     94  6385.656     6406.668     6841.667
+ 27  K2P           3138.438     88  6452.877     6471.176     6879.781
+ 28  K2P+I         3121.758     89  6421.517     6440.253     6853.272
+ 29  K2P+G4        3120.388     89  6418.776     6437.513     6850.531
+ 30  K2P+I+G4      3120.536     90  6421.072     6440.252     6857.679
+ 31  K2P+R2        3120.936     90  6421.872     6441.052     6858.478
+ 32  K2P+R3        3120.473     92  6424.947     6445.031     6871.256
+ 40  HKY+F         3094.092     91  6370.184     6389.813     6811.642
+ 41  HKY+F+I       3080.885     92  6345.769     6365.854     6792.078
+ 42  HKY+F+G4      3079.605     92  6343.210     6363.294     6789.519
+ 43  HKY+F+I+G4    3079.924     93  6345.847     6366.392     6797.007
+ 44  HKY+F+R2      3079.947     93  6345.894     6366.440     6797.055
+ 45  HKY+F+R3      3079.641     95  6349.282     6370.767     6810.145
+ 53  TNe           3138.421     89  6454.841     6473.578     6886.596
+ 54  TNe+I         3121.756     90  6423.511     6442.692     6860.118
+ 55  TNe+G4        3120.385     90  6420.770     6439.951     6857.377
+ 56  TNe+I+G4      3120.516     91  6423.032     6442.662     6864.490
+ 57  TNe+R2        3120.891     91  6423.781     6443.411     6865.239
+ 58  TNe+R3        3120.386     93  6426.772     6447.317     6877.932
+ 66  TN+F          3093.822     92  6371.645     6391.729     6817.954
+ 67  TN+F+I        3080.641     93  6347.282     6367.827     6798.442
+ 68  TN+F+G4       3079.343     93  6344.687     6365.232     6795.847
+ 69  TN+F+I+G4     3079.650     94  6347.300     6368.312     6803.312
+ 70  TN+F+R2       3079.664     94  6347.329     6368.340     6803.340
+ 71  TN+F+R3       3079.320     96  6350.641     6372.603     6816.355
+ 79  K3P           3135.770     89  6449.540     6468.277     6881.295
+ 80  K3P+I         3119.049     90  6418.098     6437.278     6854.705
+ 81  K3P+G4        3117.691     90  6415.383     6434.563     6851.989
+ 82  K3P+I+G4      3117.803     91  6417.606     6437.236     6859.064
+ 83  K3P+R2        3118.159     91  6418.318     6437.948     6859.776
+ 84  K3P+R3        3117.630     93  6421.260     6441.805     6872.420
+ 92  K3Pu+F        3088.765     92  6361.531     6381.615     6807.840
+ 93  K3Pu+F+I      3075.975     93  6337.950     6358.496     6789.111
+ 94  K3Pu+F+G4     3074.655     93  6335.310     6355.855     6786.470
+ 95  K3Pu+F+I+G4   3074.978     94  6337.956     6358.968     6793.967
+ 96  K3Pu+F+R2     3074.961     94  6337.921     6358.933     6793.932
+ 97  K3Pu+F+R3     3074.586     96  6341.172     6363.134     6806.886
+105  TPM2+F        3092.866     92  6369.733     6389.817     6816.042
+106  TPM2+F+I      3080.002     93  6346.004     6366.549     6797.164
+107  TPM2+F+G4     3078.604     93  6343.209     6363.754     6794.369
+108  TPM2+F+I+G4   3078.948     94  6345.895     6366.907     6801.906
+109  TPM2+F+R2     3078.903     94  6345.806     6366.818     6801.817
+110  TPM2+F+R3     3078.503     96  6349.006     6370.968     6814.719
+118  TPM2u+F       3092.866     92  6369.733     6389.817     6816.042
+119  TPM2u+F+I     3080.002     93  6346.004     6366.549     6797.164
+120  TPM2u+F+G4    3078.604     93  6343.208     6363.754     6794.369
+121  TPM2u+F+I+G4  3078.941     94  6345.881     6366.893     6801.893
+122  TPM2u+F+R2    3078.893     94  6345.786     6366.798     6801.798
+123  TPM2u+F+R3    3078.493     96  6348.986     6370.948     6814.700
+131  TPM3+F        3079.076     92  6342.152     6362.237     6788.461
+132  TPM3+F+I      3067.108     93  6320.215     6340.761     6771.376
+133  TPM3+F+G4     3065.794     93  6317.588     6338.133     6768.748
+134  TPM3+F+I+G4   3066.174     94  6320.349     6341.361     6776.360
+135  TPM3+F+R2     3066.080     94  6320.160     6341.171     6776.171
+136  TPM3+F+R3     3065.726     96  6323.452     6345.414     6789.165
+144  TPM3u+F       3079.076     92  6342.153     6362.237     6788.462
+145  TPM3u+F+I     3067.108     93  6320.216     6340.761     6771.376
+146  TPM3u+F+G4    3065.793     93  6317.586     6338.131     6768.746
+147  TPM3u+F+I+G4  3066.165     94  6320.331     6341.343     6776.342
+148  TPM3u+F+R2    3066.065     94  6320.131     6341.142     6776.142
+149  TPM3u+F+R3    3065.717     96  6323.433     6345.396     6789.147
+157  TIMe          3135.752     90  6451.504     6470.684     6888.110
+158  TIMe+I        3119.046     91  6420.092     6439.722     6861.550
+159  TIMe+G4       3117.689     91  6417.378     6437.007     6858.835
+160  TIMe+I+G4     3117.770     92  6419.541     6439.625     6865.850
+161  TIMe+R2       3118.093     92  6420.186     6440.270     6866.495
+162  TIMe+R3       3117.559     94  6423.118     6444.129     6879.129
+170  TIM+F         3088.494     93  6362.989     6383.534     6814.149
+171  TIM+F+I       3075.730     94  6339.459     6360.471     6795.471
+172  TIM+F+G4      3074.390     94  6336.780     6357.792     6792.791
+173  TIM+F+I+G4    3074.677     95  6339.354     6360.839     6800.217
+174  TIM+F+R2      3074.596     95  6339.192     6360.676     6800.055
+175  TIM+F+R3      3074.240     97  6342.480     6364.926     6813.045
+183  TIM2e         3138.418     90  6456.836     6476.016     6893.443
+184  TIM2e+I       3121.715     91  6425.431     6445.060     6866.889
+185  TIM2e+G4      3120.360     91  6422.721     6442.350     6864.178
+186  TIM2e+I+G4    3120.432     92  6424.863     6444.948     6871.172
+187  TIM2e+R2      3120.664     92  6425.328     6445.413     6871.637
+188  TIM2e+R3      3120.176     94  6428.353     6449.365     6884.364
+196  TIM2+F        3092.602     93  6371.204     6391.749     6822.364
+197  TIM2+F+I      3079.757     94  6347.513     6368.525     6803.525
+198  TIM2+F+G4     3078.333     94  6344.666     6365.677     6800.677
+199  TIM2+F+I+G4   3078.630     95  6347.260     6368.744     6808.122
+200  TIM2+F+R2     3078.500     95  6347.001     6368.485     6807.863
+201  TIM2+F+R3     3078.099     97  6350.197     6372.644     6820.762
+209  TIM3e         3132.406     90  6444.811     6463.991     6881.418
+210  TIM3e+I       3117.726     91  6417.452     6437.081     6858.909
+211  TIM3e+G4      3116.436     91  6414.872     6434.501     6856.329
+212  TIM3e+I+G4    3116.556     92  6417.112     6437.197     6863.421
+213  TIM3e+R2      3116.616     92  6417.233     6437.317     6863.542
+214  TIM3e+R3      3116.258     94  6420.515     6441.527     6876.526
+222  TIM3+F        3078.810     93  6343.619     6364.165     6794.780
+223  TIM3+F+I      3066.904     94  6321.807     6342.819     6777.819
+224  TIM3+F+G4     3065.599     94  6319.199     6340.211     6775.210
+225  TIM3+F+I+G4   3065.911     95  6321.823     6343.307     6782.685
+226  TIM3+F+R2     3065.787     95  6321.575     6343.059     6782.437
+227  TIM3+F+R3     3065.446     97  6324.892     6347.338     6795.457
+235  TVMe          3130.388     91  6442.776     6462.406     6884.234
+236  TVMe+I        3115.423     92  6414.846     6434.931     6861.155
+237  TVMe+G4       3114.160     92  6412.319     6432.404     6858.628
+238  TVMe+I+G4     3114.241     93  6414.482     6435.027     6865.642
+239  TVMe+R2       3114.390     93  6414.781     6435.326     6865.941
+240  TVMe+R3       3114.003     95  6418.007     6439.491     6878.869
+248  TVM+F         3075.180     94  6338.361     6359.373     6794.372
+249  TVM+F+I       3063.490     95  6316.980     6338.464     6777.842
+250  TVM+F+G4      3062.057     95  6314.114     6335.598     6774.977
+251  TVM+F+I+G4    3062.414     96  6316.827     6338.789     6782.541
+252  TVM+F+R2      3062.216     96  6316.432     6338.394     6782.146
+253  TVM+F+R3      3061.816     98  6319.632     6342.568     6795.048
+261  SYM           3130.375     92  6444.751     6464.835     6891.060
+262  SYM+I         3115.430     93  6416.861     6437.406     6868.021
+263  SYM+G4        3114.160     93  6414.320     6434.865     6865.480
+264  SYM+I+G4      3114.231     94  6416.461     6437.473     6872.473
+265  SYM+R2        3114.412     94  6416.823     6437.835     6872.834
+266  SYM+R3        3113.954     96  6419.907     6441.870     6885.621
+274  GTR+F         3074.915     95  6339.830     6361.315     6800.693
+275  GTR+F+I       3063.283     96  6318.565     6340.527     6784.279
+276  GTR+F+G4      3061.858     96  6315.716     6337.678     6781.430
+277  GTR+F+I+G4    3062.197     97  6318.395     6340.841     6788.959
+278  GTR+F+R2      3061.989     97  6317.979     6340.425     6788.544
+279  GTR+F+R3      3061.597     99  6321.194     6344.626     6801.462
+Akaike Information Criterion:           TVM+F+G4
+Corrected Akaike Information Criterion: TVM+F+G4
+Bayesian Information Criterion:         TPM3u+F+G4
+Best-fit model: TPM3u+F+G4 chosen according to BIC
+
+All model information printed to ValerianellaLF2_renombradas2_IAS_Beauti3.phy.model.gz
+CPU time for ModelFinder: 2.969 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 4.531 seconds (0h:0m:4s)
+Generating 1000 samples for ultrafast bootstrap (seed: 714340)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3099.345
+2. Current log-likelihood: -3065.853
+Optimal log-likelihood: -3065.793
+Rate parameters:  A-C: 2.53131  A-G: 3.26436  A-T: 1.00000  C-G: 2.53131  C-T: 3.26436  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.179  G: 0.180  T: 0.360
+Gamma shape alpha: 0.860
+Parameters optimization took 2 rounds (0.053 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+Computing BIONJ tree...
+0.012 seconds
+Log-likelihood of BIONJ tree: -3088.164
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.209 second
+Computing log-likelihood of 98 initial trees ... 0.503 seconds
+Current best score: -3061.920
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3061.912
+Iteration 10 / LogL: -3061.912 / Time: 0h:0m:1s
+Iteration 20 / LogL: -3061.973 / Time: 0h:0m:1s
+Finish initializing candidate tree set (20)
+Current best tree score: -3061.912 / CPU time: 1.462
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 25: -3061.912
+Iteration 30 / LogL: -3061.914 / Time: 0h:0m:2s (0h:0m:8s left)
+Iteration 40 / LogL: -3062.728 / Time: 0h:0m:3s (0h:0m:7s left)
+Iteration 50 / LogL: -3061.913 / Time: 0h:0m:4s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -3094.409
+Iteration 60 / LogL: -3061.913 / Time: 0h:0m:5s (0h:0m:6s left)
+Iteration 70 / LogL: -3061.914 / Time: 0h:0m:6s (0h:0m:5s left)
+Iteration 80 / LogL: -3061.913 / Time: 0h:0m:7s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 86: -3061.912
+Iteration 90 / LogL: -3061.913 / Time: 0h:0m:8s (0h:0m:8s left)
+Iteration 100 / LogL: -3156.630 / Time: 0h:0m:8s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -3094.949
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -3062.728 / Time: 0h:0m:10s (0h:0m:8s left)
+Iteration 120 / LogL: -3061.913 / Time: 0h:0m:10s (0h:0m:7s left)
+BETTER TREE FOUND at iteration 125: -3061.912
+Iteration 130 / LogL: -3065.708 / Time: 0h:0m:11s (0h:0m:8s left)
+Iteration 140 / LogL: -3061.914 / Time: 0h:0m:12s (0h:0m:7s left)
+Iteration 150 / LogL: -3061.913 / Time: 0h:0m:13s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -3094.949
+Iteration 160 / LogL: -3061.913 / Time: 0h:0m:14s (0h:0m:5s left)
+Iteration 170 / LogL: -3061.914 / Time: 0h:0m:15s (0h:0m:5s left)
+Iteration 180 / LogL: -3061.912 / Time: 0h:0m:16s (0h:0m:4s left)
+Iteration 190 / LogL: -3061.913 / Time: 0h:0m:17s (0h:0m:3s left)
+Iteration 200 / LogL: -3061.913 / Time: 0h:0m:17s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -3094.949
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 210 / LogL: -3074.227 / Time: 0h:0m:19s (0h:0m:8s left)
+Iteration 220 / LogL: -3064.765 / Time: 0h:0m:19s (0h:0m:7s left)
+TREE SEARCH COMPLETED AFTER 226 ITERATIONS / Time: 0h:0m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3061.912
+Optimal log-likelihood: -3061.912
+Rate parameters:  A-C: 2.53212  A-G: 3.24546  A-T: 1.00000  C-G: 2.53212  C-T: 3.24546  G-T: 1.00000
+Base frequencies:  A: 0.281  C: 0.179  G: 0.180  T: 0.360
+Gamma shape alpha: 0.885
+Parameters optimization took 1 rounds (0.025 sec)
+BEST SCORE FOUND : -3061.912
+Creating bootstrap support values...
+Split supports printed to NEXUS file ValerianellaLF2_renombradas2_IAS_Beauti3.phy.splits.nex
+Total tree length: 0.394
+
+Total number of iterations: 226
+CPU time used for tree search: 19.750 sec (0h:0m:19s)
+Wall-clock time used for tree search: 20.309 sec (0h:0m:20s)
+Total CPU time used: 20.031 sec (0h:0m:20s)
+Total wall-clock time used: 20.731 sec (0h:0m:20s)
+
+Computing bootstrap consensus tree...
+Reading input file ValerianellaLF2_renombradas2_IAS_Beauti3.phy.splits.nex...
+45 taxa and 309 splits.
+Consensus tree written to ValerianellaLF2_renombradas2_IAS_Beauti3.phy.contree
+Reading input trees file ValerianellaLF2_renombradas2_IAS_Beauti3.phy.contree
+Log-likelihood of consensus tree: -3061.912
+
+Analysis results written to: 
+  IQ-TREE report:                ValerianellaLF2_renombradas2_IAS_Beauti3.phy.iqtree
+  Maximum-likelihood tree:       ValerianellaLF2_renombradas2_IAS_Beauti3.phy.treefile
+  Likelihood distances:          ValerianellaLF2_renombradas2_IAS_Beauti3.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ValerianellaLF2_renombradas2_IAS_Beauti3.phy.splits.nex
+  Consensus tree:                ValerianellaLF2_renombradas2_IAS_Beauti3.phy.contree
+  Screen log file:               ValerianellaLF2_renombradas2_IAS_Beauti3.phy.log
+
+Date and Time: Mon May 10 11:12:00 2021
